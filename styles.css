@@ -2,6 +2,11 @@
  font-family: 'Roboto', sans-serif;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 .hero, .footer, .header {
     background-color: #1F2937;
 }
@@ -9,20 +14,6 @@
 h1 {
     font-weight: bolder;
     color: #F9FAF8;
-}
-
-.hero-secondary-text, .header-link {
-    font-size: 18px;
-    color: #E5E7EB;
-}
-
-.header-logo {
-    font-size: 24px;
-    color: #F9FAF8;
-}
-
-.hero-button {
-    background-color: #3882f6;
 }
 
 .banner {
@@ -44,4 +35,53 @@ h1 {
 
 .footer {
     color: #E5E7EB;
+}
+
+/* #region Header style */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid white;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+    padding-left: 16px;
+}
+
+.header-links-section {
+    text-decoration: none;
+}
+
+.header-link {
+    padding: 0px 16px;
+}
+
+/* #endregion Header Style */
+
+/* #region Hero styles */
+
+.hero-secondary-text, .header-link {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-button {
+    background-color: #3882f6;
 }
