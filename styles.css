@@ -9,16 +9,11 @@ body {
 
 .footer, {
     background-color: #1F2937;
+    color: #E5E7EB;
 }
 
 .banner {
     background-color: #3882f6;
-}
-
-.mid-section-header {
-    font-size: 36px;
-    font-weight: bolder;
-    color: #1F2937;
 }
 
 .quote {
@@ -26,10 +21,6 @@ body {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
-}
-
-.footer {
-    color: #E5E7EB;
 }
 
 /* #region Header style */
@@ -117,3 +108,45 @@ a {
 }
 
 /* #endregion Hero styles */
+
+/* #region Mid-section styles */
+
+.mid-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 24px;
+    height: 300px;
+}
+
+.mid-section-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding-bottom: 24px;
+}
+
+.mid-section-content {
+    display: flex;
+    justify-content: space-around;
+    gap: 28px;
+}
+
+.mid-item {
+    width: 100px;
+    text-align: center;
+}
+
+.mid-item-image {
+    border: 2px solid #3882f6;
+    border-radius: 8px;
+    height: 100px;
+}
+
+.mid-item-text {
+    margin-top: 4px;
+    font-size: 12px;
+    color: darkslategray;
+}
+
+/* #endregion Mid-section styles */
