@@ -7,21 +7,6 @@ body {
     flex-direction: column;
 }
 
-.footer, {
-    background-color: #1F2937;
-    color: #E5E7EB;
-}
-
-.banner {
-    background-color: #3882f6;
-}
-
-.quote {
-    background-color: #E5E7EB;
-    font-size: 36px;
-    font-style: italic;
-    color: #1F2937;
-}
 
 /* #region Header style */
 
@@ -150,3 +135,97 @@ a {
 }
 
 /* #endregion Mid-section styles */
+
+/* #region Quote style */
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 60px;
+    color: #1F2937;
+    align-items: center;
+}
+
+.phrase {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.signature {
+    font-weight: bold;
+    padding: 8px;
+    font-size: 14px;
+}
+
+/* #endregion Quote style */
+
+/* #region Banner style */
+
+.banner-container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+.banner {
+    background-color: #3882f6;
+    color:#E5E7EB;
+    margin: 32px;
+    padding: 4px 56px;
+    border-radius: 8px;
+    display: flex;
+    height: 90px;
+}
+
+.banner-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0px 60px 0px 34px;
+}
+
+.banner-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 32px;
+
+}
+
+.banner-title {
+    font-weight: bold;
+}
+
+.banner-subtitle {
+    font-size: 12px;
+}
+
+.banner-button {
+    border: 1px solid white;
+    border-radius: 4px;
+    background-color: transparent;
+    color: #E5E7EB;
+    padding: 4px 20px;
+}
+
+/* #endregion Banner style */
+
+/* #region Footer Style */
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+}
