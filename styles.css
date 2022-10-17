@@ -1,0 +1,47 @@
+* {
+ font-family: 'Roboto', sans-serif;
+}
+
+.hero, .footer, .header {
+    background-color: #1F2937;
+}
+
+h1 {
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero-secondary-text, .header-link {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hero-button {
+    background-color: #3882f6;
+}
+
+.banner {
+    background-color: #3882f6;
+}
+
+.mid-section-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.footer {
+    color: #E5E7EB;
+}
