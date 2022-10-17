@@ -7,13 +7,8 @@ body {
     flex-direction: column;
 }
 
-.hero, .footer, .header {
+.footer, {
     background-color: #1F2937;
-}
-
-h1 {
-    font-weight: bolder;
-    color: #F9FAF8;
 }
 
 .banner {
@@ -41,9 +36,9 @@ h1 {
 
 .header {
     display: flex;
-    justify-content: space-between;
-    border: 1px solid white;
+    justify-content: space-around;
     align-items: center;
+    background-color: #1F2937;
 }
 
 ul {
@@ -77,11 +72,48 @@ a {
 
 /* #region Hero styles */
 
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 32px;
+}
+
+.hero-left {
+    width: 500px;
+    padding: 32px;
+}
+
+.hero-right {
+    display: flex;
+    width: 500px;
+    margin: 16px;
+    height: 200px;
+    background-color: grey;
+    color:#E5E7EB;
+    justify-content: center;
+    align-items: center;
+}
+
 .hero-secondary-text, .header-link {
     font-size: 18px;
     color: #E5E7EB;
+    margin: 10px 0px;
 }
 
 .hero-button {
     background-color: #3882f6;
+    border: none;
+    color:#E5E7EB;
+    padding: 4px 24px;
+    border-radius: 4px;
 }
+
+.hero-title {
+    font-weight: bolder;
+    color: #F9FAF8;
+    font-size: 48px;
+}
+
+/* #endregion Hero styles */
